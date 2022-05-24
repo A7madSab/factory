@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+  "dependencies": {
+    "@react-three/drei": "9.7.1",
+    "@react-three/fiber": "8.0.14",
+    "@types/three": "0.140.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-three-fpscontrols": "0.2.0",
+    "three": "0.140.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [
+    "react-three-fiber",
+    "threejs"
+  ],
+  "name": "demo-react-three-fpscontrols",
+  "description": "Demo for https://github.com/antonybudianto/react-three-fpscontrols"
+}
