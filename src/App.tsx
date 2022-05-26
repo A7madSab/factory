@@ -20,17 +20,17 @@ export default function Viewer() {
 
                     {/* <MainStage /> */}
                     <Suspense fallback={null}>
-                        <Model scale={[2, 2, 2]} path="/ddddmodels/office.glb" />
+                        <Model scale={[2, 2, 2]} path="/models/office.glb" />
                     </Suspense>
 
                     <FPSControls
                         camProps={{
                             makeDefault: true,
                             fov: 80,
-                            position: [0, 2.8, 0.7],
+                            position: [0, 6, 0.7],
                         }}
                         orbitProps={{
-                            target: [0, 2.8, 0],
+                            target: [0, 6, 0],
                         }}
                         enableJoystick
                         enableKeyboard
