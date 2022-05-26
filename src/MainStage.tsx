@@ -1,4 +1,4 @@
-import Land from "./Land";
+import Land from "src/Land";
 
 const MainStage = () => {
   return <Land />;

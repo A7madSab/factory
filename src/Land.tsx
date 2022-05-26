@@ -6,9 +6,10 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { str2Hex } from "./utils";
 
-export default function Model(props) {
+export default function Model(props: any) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/land.gltf");
+  const { nodes, materials }: any = useGLTF("/land.gltf");
+
   const handleTv = () => {
     const randomColor = Math.floor(Math.random() * 16777215).toString(16);
     const num = str2Hex(randomColor);
